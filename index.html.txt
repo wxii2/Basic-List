@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript + DOM</title>
+	<link rel="stylesheet" type="text/CSS" href="index.css">
+</head>
+<body>
+	<h1>Basic List</h1>
+	<p id="first">Today Only</p>
+	<input id="userInput" type="text" placeholder="Enter items">
+	<button id="enter">Click</button>
+	<ul id=myList>
+		<li class="italic" random="23">Pen <button class="delete">Delete</button></li>
+		
+		<li class="blue">Pencil <button class="delete">Delete</button></li>
+		<li>Books<button class="delete">Delete</button></li>
+		<li>Notebook<button class="delete">Delete</button></li>
+		<li>Colours <button class="delete">Delete</button></li>
+		<li>Eraser <button class="delete">Delete</button></li>
+	</ul>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
