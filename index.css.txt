@@ -1,0 +1,171 @@
+body {
+    
+    background-image: url("https://www.thesprucepets.com/thmb/kV_cfc9P4QWe-klxZ8y--awxvY4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Main div */
+.main {
+    padding: 5px 10px;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    background-color: #f8f7ff;
+    /* border: 5px inset red; */
+    border: 8px inset #001845;
+}
+
+/* Heading tag */
+
+.heading {
+    color: white;
+    padding: 10px 0px;
+    /* background-color: #04395e; */
+    background-color: #ff4800;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+}
+
+/* for All List items */
+
+.list,
+.delete,
+.update,
+.moveup,
+.movedown {
+    display: inline-block;
+    color: white
+}
+
+
+/* for list */
+.list {
+    padding-top: 7px;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    border: 4px inset rgb(0, 255, 76);
+    color: black;
+
+}
+
+/* for deletion */
+
+.delete {
+    border: 2px inset pink;
+
+}
+
+.delete:hover {
+    color: white;
+    background-color: #ff595e;
+}
+
+/* for Updation */
+
+.update {
+    border: 2px inset #ef476f;
+}
+
+.update:hover {
+    color: white;
+    background-color: #ef476f;
+}
+
+/* for moveup */
+.moveup {
+    border: 2px inset #4d194d;
+}
+
+.moveup:hover {
+    color: white;
+    background-color: #84e3c8;
+}
+
+
+/* for Move down */
+.movedown {
+    border: 2px inset #ffd60a;
+}
+
+.movedown:hover {
+    color: white;
+    background-color: #495057;
+}
+
+/* For All */
+
+.delete,
+.update,
+.moveup,
+.movedown {
+    width: 90px;
+    height: 30px;
+    padding-top: 7px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+
+/* for updation */
+#list {
+    margin-top: 30px;
+}
+
+/* for input box */
+
+input[type="text"] {
+    width: 450px;
+    height: 32px;
+    border: 4px inset #f72585;
+    color: red;
+
+}
+
+
+
+
+/* for button */
+.btn {
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border: 4px inset #0d47a1;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn:hover {
+    color: white;
+    background-color: aqua;
+}
+
+
+/* Apply Media Queries */
+
+@media only screen and (max-width:1160px) {
+    input[type="text"] {
+        width: 200px;
+
+    }
+}
+
+@media only screen and (max-width:500px) {
+    input[type="text"] {
+        width: 100px;
+
+    }
+
+    .list {
+        width: 100px;
+    }
+
+}
+
+
